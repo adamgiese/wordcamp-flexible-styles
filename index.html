@@ -1,153 +1,153 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal/reveal.css">
-		<link rel="stylesheet" href="css/theme/serif.css">
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/reveal/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class='slides'>
-<!-- title -->
-<section>
-	<h1>Flexible Styles for<br /> Variable Content</h1>
-</section>
+    <!-- Printing and PDF exports -->
+    <script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class='slides'>
+	<!-- title -->
+	<section>
+	  <h1>Flexible Styles for<br /> Variable Content</h1>
+	</section>
 
-<!-- about me -->
-<section>
-	<h2>A Little About Me</h2>
-	<aside class="notes">
-		<ul>
-			<li>Name is Adam Giese</li>
-			<li>Software Engineer at Under Armour: Connected Fitness doing primarily front-end</li>
-			<li>I have been developing websites for nearly ten years, about five of which WordPress was a primary focus.</li>
-		</ul>
-	</aside>
-</section>
+	<!-- about me -->
+	<section>
+	  <h2>A Little About Me</h2>
+	  <aside class="notes">
+	    <ul>
+	      <li>Name is Adam Giese</li>
+	      <li>Software Engineer at Under Armour: Connected Fitness doing primarily front-end</li>
+	      <li>I have been developing websites for nearly ten years, about five of which WordPress was a primary focus.</li>
+	    </ul>
+	  </aside>
+	</section>
 
-<!-- Why flexible content? -->
-<section>
-	<h2>Why Flexible Styles Are Important</h2>
-	<ul>
-		<li class='fragment'>Things change.</li>
-		<li class='fragment'>Flexibility.</li>
-		<li class='fragment'>Clients.</li>
-	</ul>
-	<aside class="notes">
-		<h3>Things Change</h3>
-		<ul>
-			<li>Content is ideally given early, but this often does not happen.</li>
-			<li>Plus, content will likely change, due to additions and updates.</li>
-		</ul>
-		<h3>Flexibility</h3>
-		<ul>
-			<li>If you are selling premium themes, more flexible means more potential buyers.</li>
-			<li>Being flexible early saves development time down the road.</li>
-		</ul>
-		<h3>Clients</h3>
-		<ul>
-			<li>With CMS development, hopefully the client will be making the changes.</li>
-			<li>Clients have the best intentions, but may have a terrible eye.</li>
-		</ul>
-	</aside>
-</section>
+	<!-- Why flexible content? -->
+	<section>
+	  <h2>Why Flexible Styles Are Important</h2>
+	  <ul>
+	    <li class='fragment'>Things change.</li>
+	    <li class='fragment'>Flexibility.</li>
+	    <li class='fragment'>Clients.</li>
+	  </ul>
+	  <aside class="notes">
+	    <h3>Things Change</h3>
+	    <ul>
+	      <li>Content is ideally given early, but this often does not happen.</li>
+	      <li>Plus, content will likely change, due to additions and updates.</li>
+	    </ul>
+	    <h3>Flexibility</h3>
+	    <ul>
+	      <li>If you are selling premium themes, more flexible means more potential buyers.</li>
+	      <li>Being flexible early saves development time down the road.</li>
+	    </ul>
+	    <h3>Clients</h3>
+	    <ul>
+	      <li>With CMS development, hopefully the client will be making the changes.</li>
+	      <li>Clients have the best intentions, but may have a terrible eye.</li>
+	    </ul>
+	  </aside>
+	</section>
 
-<!-- Why use CSS? -->
-<section>
-	<h2>Why Use CSS?</h2>
-	<ul>
-		<li class="fragment">Separation of concerns.</li>
-		<li class="fragment">Independent of CMS.</li>
-	</ul>
-	<aside class="notes">
-		<p>Why use CSS instead of other options like conditional templating</p>
-		<h3>Separation of concerns.</h3>
-		<p>Keeping the flexible styling in the stylesheet keeps your code cleaner and more predictable.</p>
-		<h3>CMS Independent</h3>
-		<p>You may be using WordPress for your development, but by using a CSS solution your techniques will be transferable.</p>
-	</aside>
-</section>
+	<!-- Why use CSS? -->
+	<section>
+	  <h2>Why Use CSS?</h2>
+	  <ul>
+	    <li class="fragment">Separation of concerns.</li>
+	    <li class="fragment">Independent of CMS.</li>
+	  </ul>
+	  <aside class="notes">
+	    <p>Why use CSS instead of other options like conditional templating</p>
+	    <h3>Separation of concerns.</h3>
+	    <p>Keeping the flexible styling in the stylesheet keeps your code cleaner and more predictable.</p>
+	    <h3>CMS Independent</h3>
+	    <p>You may be using WordPress for your development, but by using a CSS solution your techniques will be transferable.</p>
+	  </aside>
+	</section>
 
-<!-- Flexible Styles: Title Card -->
-<section>
-	<h1>How To Write Flexible Styles</h1>
-	<p>Techniques and Use Cases</p>
-</section>
+	<!-- Flexible Styles: Title Card -->
+	<section>
+	  <h1>How To Write Flexible Styles</h1>
+	  <p>Techniques and Use Cases</p>
+	</section>
 
-<!-- Flexbox Slides -->
-<section>
-	<h2>Flexbox</h2>
-	<p class='fragment'>Literally short for "flexible box layout"</p>
-	<aside class="notes">
-		<ul>
-			<li>Purpose isn't to dive deep into flexbox</li>
-			<li>Would like to show a common use case for how it can help</li>
-			<li>Will link to some great flexbox resources</li>
-		</ul>
-	</aside>
-</section>
+	<!-- Flexbox Slides -->
+	<section>
+	  <h2>Flexbox</h2>
+	  <p class='fragment'>Literally short for "flexible box layout"</p>
+	  <aside class="notes">
+	    <ul>
+	      <li>Purpose isn't to dive deep into flexbox</li>
+	      <li>Would like to show a common use case for how it can help</li>
+	      <li>Will link to some great flexbox resources</li>
+	    </ul>
+	  </aside>
+	</section>
 
-<section>
-	<h2>Cards using Floats</h2>
-	<p data-height="500" data-theme-id="31301" data-slug-hash="42c44c45555a4430d2c5ce8db78c11d7" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 1: Floated Cards" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/42c44c45555a4430d2c5ce8db78c11d7/">WordCamp Example 1: Floated Cards</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-	<aside class="notes">
-		<p>Notice how the long title throws out the entire layout</p>
-		<p>This could theoretically by fixed by limited the characters in your CMS, but there are better options.</p>
-	</aside>
-</section>
+	<section>
+	  <h2>Cards using Floats</h2>
+	  <p data-height="500" data-theme-id="31301" data-slug-hash="42c44c45555a4430d2c5ce8db78c11d7" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 1: Floated Cards" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/42c44c45555a4430d2c5ce8db78c11d7/">WordCamp Example 1: Floated Cards</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+	  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	  <aside class="notes">
+	    <p>Notice how the long title throws out the entire layout</p>
+	    <p>This could theoretically by fixed by limited the characters in your CMS, but there are better options.</p>
+	  </aside>
+	</section>
 
-<section>
-	<p data-height="500" data-theme-id="31301" data-slug-hash="7e755fc8e9258c339934210844dd7da1" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 2: Floated Cards w/ Height" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/7e755fc8e9258c339934210844dd7da1/">WordCamp Example 2: Floated Cards w/ Height</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-	<aside class="notes">
-		<p>Defining a height keeps the layout from breaking, but adds a nasty overflow.</p>
-	</aside>
-</section>
+	<section>
+	  <p data-height="500" data-theme-id="31301" data-slug-hash="7e755fc8e9258c339934210844dd7da1" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 2: Floated Cards w/ Height" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/7e755fc8e9258c339934210844dd7da1/">WordCamp Example 2: Floated Cards w/ Height</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+	  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	  <aside class="notes">
+	    <p>Defining a height keeps the layout from breaking, but adds a nasty overflow.</p>
+	  </aside>
+	</section>
 
-<section>
-	<h2>Cards using Flexbox</h2>
-	<p data-height="500" data-theme-id="31301" data-slug-hash="87347f710a6a53e648b5a66ce758c54e" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 3: Flexbox Cards" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/87347f710a6a53e648b5a66ce758c54e/">WordCamp Example 3: Flexbox Cards</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-	<aside class="notes">
-		<ul>
-			<li>By using flexbox, the heights are matched.</li>
-			<li>By nesting flexboxes, you can easily keep the CTA aligned at the bottom</li>
-		</ul>
-	</aside>
-</section>
+	<section>
+	  <h2>Cards using Flexbox</h2>
+	  <p data-height="500" data-theme-id="31301" data-slug-hash="87347f710a6a53e648b5a66ce758c54e" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 3: Flexbox Cards" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/87347f710a6a53e648b5a66ce758c54e/">WordCamp Example 3: Flexbox Cards</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+	  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	  <aside class="notes">
+	    <ul>
+	      <li>By using flexbox, the heights are matched.</li>
+	      <li>By nesting flexboxes, you can easily keep the CTA aligned at the bottom</li>
+	    </ul>
+	  </aside>
+	</section>
 
       </div>
-		</div>
+    </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			Reveal.initialize({
-				history: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+    <script>
+Reveal.initialize({
+  history: true,
+  dependencies: [
+  { src: 'plugin/markdown/marked.js' },
+  { src: 'plugin/markdown/markdown.js' },
+  { src: 'plugin/notes/notes.js', async: true },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+  ]
+});
+    </script>
+  </body>
 </html>
