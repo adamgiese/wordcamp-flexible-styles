@@ -132,6 +132,22 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 	  </aside>
 	</section>
 
+	<!-- Quantity Queries Slides -->
+	<section>
+	  <h2>Quantity Queries</h2>
+<pre class="fragment"><code class="hljs css">li:first-child:nth-last-child(n+6),
+li:first-child:nth-last-child(n+6) ~ li {...}</code></pre>
+	  <aside class="notes">
+	    <p>By chaining together first-child and nth-last-child, along with a sibling selector, you can "count" how many siblings an element has.</p>
+	    <p>There are some limitation, including its hairy syntax.</p>
+	  </aside>
+	</section>
+
+	<section>
+	  <p data-height="500" data-theme-id="31301" data-slug-hash="YrRQjR" data-default-tab="result" data-user="AdamGiese" data-embed-version="2" data-pen-title="WordCamp Example 4: Quantity Queries" class="codepen">See the Pen <a href="https://codepen.io/AdamGiese/pen/YrRQjR/">WordCamp Example 4: Quantity Queries</a> by Adam Giese (<a href="https://codepen.io/AdamGiese">@AdamGiese</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+	  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+	</section>
+
       </div>
     </div>
 
