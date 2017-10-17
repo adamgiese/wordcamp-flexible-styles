@@ -163,6 +163,40 @@ li:first-child:nth-last-child(n+6) ~ li {...}</code></pre>
 	    <p>I am sadly not qualified to speak on the details of CSS grid.</p>
 	  </aside>
 	</section>
+
+	<!-- Container Queries -->
+	<section>
+	  <h2>Container Queries</h2>
+	  <p class="fragment">A Potential New Approach to Responsive Design</p>
+	</section>
+
+	<section>
+	  <h3>The Concept</h3>
+	  <blockquote>
+	    Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. Container queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.
+	  </blockquote>
+	  <small><em>The Responsive Issues Community Group</em></small>
+	  <aside class="notes">
+	    <ul>
+	      <li>Container Queries have been a long sought after new tech.</li>
+	      <li>This would greatly help the modularity of CSS, helping create much more flexible and reusable code.</li>
+	      <li>The RICG is the group behind the responsive images specs.</li>
+	    </ul>
+	  </aside>
+	</section>
+
+	<section>
+	  <h3>A (theoretical) example</h3>
+<pre class="fragment"><code class="hljs css">
+.widget .social-links {...}
+.widget:media(min-width: 300px) .social-links {...}
+
+</code></pre>
+	  <aside class="notes">
+	    <p>This would allow for the styling based on the size of the element with a class of widget.</p>
+	    <p>This example would allow for the 'social-links' widget to be styled differently based on the size of the 'widget' class.</p>
+	  </aside>
+	</section>
       </div>
     </div>
 
